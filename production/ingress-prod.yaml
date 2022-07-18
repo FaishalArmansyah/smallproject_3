@@ -1,8 +1,8 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: todoapp-ingress-staging
-  namespace: staging
+  name: todoapp-ingress-production
+  namespace: production
 spec:
   ingressClassName: nginx
   rules:

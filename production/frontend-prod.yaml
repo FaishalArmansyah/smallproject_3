@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: staging
+  namespace: production
   name: frontend
   labels:
     app: nodejs
@@ -18,7 +18,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: staging
+  namespace: production
   name: frontend
   labels:
     app: nodejs
